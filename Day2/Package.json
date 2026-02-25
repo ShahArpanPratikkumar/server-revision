@@ -1,0 +1,21 @@
+{
+  "name": "my-express-server",
+  "version": "1.0.0",
+  "description": "Express MongoDB Server",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.22.1",
+    "mongoos": "^0.0.1-security",
+    "mongoose": "^8.23.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  },
+  "author": "",
+  "license": "ISC"
+}
